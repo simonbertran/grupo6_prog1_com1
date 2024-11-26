@@ -1,19 +1,30 @@
-body{background-color:#aeb7b3;
+
+body {
+    background-color: #aeb7b3;
+   font-family: "Libre Franklin", sans-serif;
 }
 
-.ul_nav{display: flex;
-justify-content: space-around;}
+button {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.ul_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleIndex {justify-self: center;}
+
 .card_article {
     color: #e1efe6;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 
 .card {
     background-color: #160628;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 30%;
     text-align: center;
     margin-bottom: 10px;
@@ -26,5 +37,12 @@ justify-content: space-around;}
     border-radius: 15%;
 }
 
-.buttonCard{border-radius: 20%;
-margin-bottom: 10px;}
+.buttonCard {
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.botonAgregar {
+    justify-self: center;
+    font-size: larger;
+}
