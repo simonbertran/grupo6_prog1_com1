@@ -1,0 +1,30 @@
+body{background-color:#aeb7b3;
+}
+
+.ul_nav{display: flex;
+justify-content: space-around;}
+.card_article {
+    color: #e1efe6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card {
+    background-color: #160628;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 15%;
+}
+
+.cardImg {
+    margin-top: 10px;
+    width: 70%;
+    border-radius: 15%;
+}
+
+.buttonCard{border-radius: 20%;
+margin-bottom: 10px;}
