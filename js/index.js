@@ -13,7 +13,7 @@ function agregarRecetas() {
 function agregarRecetasScreen(recetas, x) {
     for (let i = 0; i < x; i++) {
         console.log(recetas.recipes[i]);
-        cards.innerHTML += `<div class="card card${i}"><img src="${recetas.recipes[i].image}" alt="fotoReceta" class="cardImg"><h3>${recetas.recipes[i].name}</h3><p>dificultad: ${recetas.recipes[i].difficulty} </p><button class="buttonCard">Conocer más</button></div>`;
+        cards.innerHTML += `<div class="card card${i}"><img src="${recetas.recipes[i].image}" alt="fotoReceta" class="cardImg"><h3>${recetas.recipes[i].name}</h3><p>dificultad: ${recetas.recipes[i].difficulty} </p><a href = "./detalle.html?id=${recetas[i].id}" class="buttonCard" src>Conocer más</a></div>`;
     }
 }
 agregarRecetas();

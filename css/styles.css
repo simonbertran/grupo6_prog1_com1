@@ -1,4 +1,6 @@
 
+ul, li {text-decoration: none;}
+
 body {
     background-color: #aeb7b3;
    font-family: "Libre Franklin", sans-serif;
@@ -25,7 +27,7 @@ button {
 
 .card {
     background-color: #160628;
-    width: 30%;
+    width: 18%;
     text-align: center;
     margin-bottom: 10px;
     border-radius: 15%;
@@ -46,3 +48,5 @@ button {
     justify-self: center;
     font-size: larger;
 }
+
+.buttonConocer {display: flex; justify-content: center;}
