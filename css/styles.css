@@ -82,3 +82,25 @@ button {
 .ingredientes h3, .categorias h3, .instrucciones h3{align-self: center;
 
 }
+
+.body_login{
+    background-color: #aeb7b3;
+    display: flex;
+}
+
+.sesion_login{
+    text-align: center;
+    justify-content: center;
+
+}
+
+#loginfFormulario label{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#loginfFormulario {
+    justify-content: center;
+}
