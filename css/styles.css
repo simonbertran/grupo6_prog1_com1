@@ -1,9 +1,11 @@
-
-ul, li {text-decoration: none;}
+ul,
+li {
+    text-decoration: none;
+}
 
 body {
     background-color: #aeb7b3;
-   font-family: "Libre Franklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
 }
 
 button {
@@ -15,7 +17,9 @@ button {
     justify-content: space-around;
 }
 
-.titleIndex {justify-self: center;}
+.titleIndex {
+    justify-self: center;
+}
 
 .card_article {
     color: #e1efe6;
@@ -49,4 +53,32 @@ button {
     font-size: larger;
 }
 
-.buttonConocer {display: flex; justify-content: center;}
+.buttonConocer {
+    display: flex;
+    justify-content: center;
+}
+
+/* DETALLE.HTML */
+
+.ingredientes_instrucciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detalle_img {
+    width: 30%;
+    border-radius: 10%;
+}
+
+.detalle_img_container {
+    display: flex;
+    justify-content: center;
+}
+
+.h1Detalle {
+    justify-self: center;
+}
+.h3Detalle {justify-self:center;}
+.ingredientes h3, .categorias h3, .instrucciones h3{align-self: center;
+
+}
