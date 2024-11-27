@@ -4,10 +4,15 @@ li {
 }
 
 body {
-    background-color: #aeb7b3;
+    background-image: url('/img/pexels-karolina-grabowska-4022121.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Avoids tiling the image */
+    height: 100%; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
     font-family: "Libre Franklin", sans-serif;
 }
-
+/* INDEX */
 button {
     font-family: "Libre Franklin", sans-serif;
 }
@@ -19,6 +24,7 @@ button {
 
 .titleIndex {
     justify-self: center;
+    color: white;
 }
 
 .card_article {
@@ -57,7 +63,7 @@ button {
     display: flex;
     justify-content: center;
 }
-
+/* INDEX FIN*/
 /* DETALLE.HTML */
 
 .ingredientes_instrucciones {
@@ -82,6 +88,8 @@ button {
 .ingredientes h3, .categorias h3, .instrucciones h3{align-self: center;
 
 }
+/* DETALLE.HTML FIN */
+
 
 .body_login{
     background-color: #aeb7b3;
