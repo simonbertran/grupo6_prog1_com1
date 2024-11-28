@@ -1,28 +1,19 @@
-let form = document.querySelector(".formLogin")
-let campoEmail = document.querySelector("#email");
-let campoContraseña = document.querySelector("#contraseña")
-
-form.addEventListener('submit', function(event){
+const formulario = document.getElementById("loginFormulario")
+formulario.addEventListener('submit', function(event){
     event.preventDefault();
 
-    
-    let valid = true
-
     if (campoEmail.value == '') {
-        valid = false;
         alert("Por favor complete el campo email");
-        
+        return;
     }
     
     if (campoContraseña.value == ''){
-        valid = false;
         alert("Por favor complete el campo contraseña");
-        
+        return;
     }
 
-    if(valid){
-        form.submit()
-    }
+    alert("Inicio de sesion exitoso");
+    window.location.href = "index.html";
 
 
-});
+})
