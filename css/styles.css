@@ -1,6 +1,12 @@
 ul,
 li {
     text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -16,9 +22,17 @@ button {
     font-family: "Libre Franklin", sans-serif;
 }
 
+
+
 .ul_nav {
     display: flex;
     justify-content: space-around;
+    color: white;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
 }
 
 .titleIndex {
@@ -40,10 +54,12 @@ button {
     text-align: center;
     margin-bottom: 10px;
     border-radius: 15%;
+    padding: 5px;
 }
-/* .card:hover {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-} */
+.card:hover {
+    box-shadow: 5px 5px 5px 5px black;
+
+}
 
 .cardImg {
     margin-top: 10px;
@@ -54,6 +70,12 @@ button {
 .buttonCard {
     border-radius: 20%;
     margin-bottom: 10px;
+    background-color: #e1efe6;
+    border-radius: 10%;
+    color: black;
+    font-size: small;
+
+
 }
 
 .botonAgregar {
