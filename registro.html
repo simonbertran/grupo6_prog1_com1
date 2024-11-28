@@ -1,60 +1,32 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Registro</title>
-    <link rel="stylesheet" href="css/styles.css">
-
 </head>
 <body>
-    <header>
 
-        <h1>Formulario de Registro</h1>
-    </header>
-    <main>
+    <script src="./js/registro.js"></script>
 
-        <form id="register-form" class="center-form">
-            <div>
+    <div class="Registro">  
+        <form id="registroForm">
+            <h2>Registro</h2>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
 
-                <label for="email">Email:</label>
+            <label for="contraseña">Contraseña:</label>
+            <input type="contraseña" name="contraseña" id="contraseña">
 
-                <input type="email" id="email" name="email" placeholder="Ingrese su email">
-                <p id="email-error" class="error-message"></p>
+            <label>
+                <input type="checkbox" id="terminos" name="terminos">
+                Acepto los <a href="">Terminos y condiciones</a>
+            </label>
 
-            </div>
-
-            <div>
-
-                <label for="password">Contraseña:</label>
-
-                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña">
-                <p id="password-error" class="error-message"></p>
-            </div>
-
-            <div>
-                <label>
-
-                    <input type="checkbox" id="terms"> Acepto los Términos y Condiciones
-                </label>
-                <p id="terms-error" class="error-message"></p>
-            </div>
-
-            <div>
-                <button type="submit">Registrarse</button>
-            </div>
-
-            <p>¿Ya tenes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+            <button type="submit">Resgistrar</button>
+            <p><a href="login.html">Ya tengo una cuenta</a></p>
         </form>
-    </main>
-
-    <footer>
-        <p>Proyecto Integrador - Equipo 6</p>
-    </footer>
-
-    <script src="js/registro.js"></script>
-
+    </div>
+    
 </body>
-
 </html>
