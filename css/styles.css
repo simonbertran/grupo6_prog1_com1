@@ -4,19 +4,26 @@ li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
 body {
-    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the container */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Avoids tiling the image */
-    height: 100%; /* Full height of the viewport */
-    width: 100%; /* Full width of the viewport */
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Ensures the image covers the container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Avoids tiling the image */
+    height: 100%;
+    /* Full height of the viewport */
+    width: 100%;
+    /* Full width of the viewport */
 }
+
 /* INDEX */
 button {
     font-family: "Libre Franklin", sans-serif;
@@ -30,7 +37,7 @@ button {
     color: white;
 }
 
-.buscador{
+.buscador {
     display: flex;
     justify-content: center;
 }
@@ -56,6 +63,7 @@ button {
     border-radius: 15%;
     padding: 5px;
 }
+
 .card:hover {
     box-shadow: 5px 5px 5px 5px black;
 
@@ -82,34 +90,70 @@ button {
     justify-self: center;
     font-size: larger;
 }
+
 .botonAgregar:hover {
     justify-self: center;
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
+
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
 
 .buttonConocer {
     display: flex;
     justify-content: center;
 }
+
 .buttonConocer:hover {
     display: flex;
     font-size: xx-large;
     justify-content: center;
 }
+
 /* INDEX FIN*/
 /* DETALLE.HTML */
 
@@ -133,25 +177,40 @@ button {
     color: white;
     justify-self: center;
 }
-.h3Detalle {justify-self:center; color: white;}
-.ingredientes h3, .categorias h3, .instrucciones h3{align-self: center;
 
+.h3Detalle {
+    justify-self: center;
+    color: white;
 }
+
+.ingredientes h3,
+.categorias h3,
+.instrucciones h3 {
+    align-self: center;
+}
+.detalle_category{
+    display: flex;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    justify-content: center;
+}
+
 /* DETALLE.HTML FIN */
 
 
-.body_login{
+.body_login {
     background-color: #aeb7b3;
     display: flex;
 }
 
-.sesion_login{
+.sesion_login {
     text-align: center;
     justify-content: center;
 
 }
 
-#loginfFormulario label{
+#loginfFormulario label {
     display: flex;
     width: 100%;
     justify-content: center;

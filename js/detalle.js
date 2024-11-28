@@ -22,7 +22,7 @@ fetch(`https://dummyjson.com/recipes/${id}`).then(function (response) { return r
     }
     for (let i = 0; i < data.tags.length; i++) {
         console.log(data.tags[i])
-        categorias.innerHTML += `<a href ="category.html?id=${data.tags[i]}"><p>${data.tags[i]}</p></a> `;
+        categorias.innerHTML += `<a href ="category.html?id=${data.tags[i]}"><p class="detalle_category">${data.tags[i]}</p></a> `;
     }
 })
 
