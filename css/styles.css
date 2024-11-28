@@ -90,25 +90,53 @@ button {
 }
 /* DETALLE.HTML FIN */
 
+/* Login */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
 
 .body_login{
     background-color: #aeb7b3;
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log{
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .sesion_login{
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
-    justify-content: center;
+    margin-bottom: 20px;
 
 }
 
-#loginfFormulario label{
-    display: flex;
+
+form label{
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+fomr input{
     width: 100%;
-    justify-content: center;
+    padding:10px;
+    margin-bottom: 20px;
+    border: 1px, solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    
 }
 
-
-#loginfFormulario {
-    justify-content: center;
-}
+/* Login */
