@@ -4,13 +4,12 @@ li {
 }
 
 body {
-    background-image: url('/img/pexels-karolina-grabowska-4022121.jpg'); /* Replace with your image path */
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the container */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Avoids tiling the image */
     height: 100%; /* Full height of the viewport */
     width: 100%; /* Full width of the viewport */
-    font-family: "Libre Franklin", sans-serif;
 }
 /* INDEX */
 button {
