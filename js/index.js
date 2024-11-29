@@ -5,16 +5,6 @@ form = document.querySelector(".formNav")
 buscador = document.querySelector(".searchForm")
 let cantidadRecetas = 0;
 
-form.addEventListener('submit', function (event) {event.preventDefault(); console.log("!") ;let valido =true;
-
-    if(buscador.value = ""){valido = false; alert("Por favor completar con informacion");}
-    else if (buscador.length < 3) {
-        valido = false;  alert("La palabra buscada deberia ser más larga");
-        
-    }
-    else{this.submit();}
-  })
-
 function agregarRecetas() {
     fetch('https://dummyjson.com/recipes')
         .then(function (response) { return response.json(); })

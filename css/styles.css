@@ -68,7 +68,7 @@ h1 {
     color: #e1efe6;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -168,18 +168,7 @@ h1 {
 
 /* LOGIN */
 
-.body_login {
-    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .log {
     display: flex;
@@ -283,7 +272,7 @@ label {
 }
 
 .categoriesBody {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -312,8 +301,7 @@ label {
     }
 
     body {
-        background-color: #160628;
-        background-size: auto;
+        background-color: black;
     }
 
     .detalle_categories {
@@ -321,16 +309,16 @@ label {
     }
 
     .card {
-        width: 90%;
+        width: 100%;
         border: 3px solid;
     }
 
-    .ul_nav {
+    nav{
         display: none;
     }
 
     .card_article {
-        width: 100%;
+        width: 90%;
         justify-content: center;
     }
 }
