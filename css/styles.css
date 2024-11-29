@@ -237,6 +237,13 @@ label {
     justify-self: center;
 }
 
+.searchForm {
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    text-align: center;
+    height: 25px;
+}
 
 .registro {
     display: flex;
