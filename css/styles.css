@@ -199,24 +199,106 @@ button {
 /* DETALLE.HTML FIN */
 
 
-.body_login {
-    background-color: #aeb7b3;
+/* LOGIN */
+
+.body_login{
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
     display: flex;
+   flex-direction: column;
+   align-items:  center;
 }
 
-.sesion_login {
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+#loginfFormulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.sesion_login{
+   
+    font-size: 40px;
+    color: bisque;
+    font-weight: bold;
     text-align: center;
-    justify-content: center;
-
-}
-
-#loginfFormulario label {
-    display: flex;
     width: 100%;
-    justify-content: center;
+    margin-bottom: 20px;    
 }
 
+label{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+}
 
-#loginfFormulario {
+button{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    padding-top: 12px;
+   justify-content: center;
+    width: 70%;
+    margin-top: 10px;
+}
+/* LOGIN FIN */
+
+/* REGISTRO */
+
+.body_registro{
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+    display: flex;
+   flex-direction: column;
+   align-items:  center;
+    
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 15px;
+    max-width: 100%;
+    padding: 20px;
+    
+}
+
+#registroForm {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+label{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+}
+
+.rtitulo{
+    display: flex;
+    color: bisque;
+    justify-content: center;
+    font-size: 40px;
 }
