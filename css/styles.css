@@ -238,6 +238,7 @@ button {
     gap: 15px;
     max-width: 100%;
     padding: 20px;
+    justify-content: center;
 }
 
 #loginfFormulario{
@@ -262,7 +263,7 @@ label{
     color: bisque;
 }
 
-button{
+.buttonLogin{
     font-size: 15px;
     font-weight: bold;
     color: black;
@@ -271,7 +272,7 @@ button{
     width: 15%;
     padding-top: 12px;
    justify-content: center;
-    width: 70%;
+    width: 100%;
     margin-top: 10px;
 }
 /* LOGIN FIN */
