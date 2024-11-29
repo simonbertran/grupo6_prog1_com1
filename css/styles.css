@@ -230,20 +230,13 @@ label {
 /* LOGIN FIN */
 
 /* REGISTRO */
-
-.body_registro {
-    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+.body_registro{
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    justify-content: center;
+    justify-self: center;
 }
+
 
 .registro {
     display: flex;
