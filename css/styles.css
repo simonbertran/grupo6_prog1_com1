@@ -200,6 +200,16 @@ justify-content:  center;}
     justify-content: center;
 }
 
+@media(max-width:480px){
+    body {background-color: #160628;
+        background-size:auto;}
+    
+    .ingredientes_instrucciones{
+       flex-direction: column;
+        
+    }
+}
+
 /* DETALLE.HTML FIN */
 
 
