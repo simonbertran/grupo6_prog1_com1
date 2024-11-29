@@ -30,7 +30,10 @@ button {
 }
 
 
-
+.imgHeader{width: 100%;
+    display: flex;
+justify-content:  center;}
+.imgHeader img {width: 5%;}
 .ul_nav {
     display: flex;
     justify-content: space-around;
