@@ -154,6 +154,24 @@ button {
     justify-content: center;
 }
 
+@media(max-width:480px){
+    
+
+    .card{
+        width: 100%;
+        border: 3px solid;
+    }
+    .ul_nav{
+        display: none;
+        justify-content: center;
+    }
+
+    .card_article{
+        width:100%;
+        justify-content: center;
+    }
+}
+
 /* INDEX FIN*/
 /* DETALLE.HTML */
 
