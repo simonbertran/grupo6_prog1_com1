@@ -64,10 +64,6 @@ button {
     padding: 5px;
 }
 
-.card:hover {
-    box-shadow: 5px 5px 5px 5px black;
-
-}
 
 .cardImg {
     margin-top: 10px;
@@ -154,35 +150,47 @@ button {
     justify-content: center;
 }
 
-@media(max-width:480px){
-    
+@media(max-width:480px) {
 
-    .card{
-        width: 100%;
+
+    .card {
+        width: 90%;
         border: 3px solid;
     }
-    .ul_nav{
+
+    .ul_nav {
         display: none;
         justify-content: center;
     }
 
-    .card_article{
-        width:100%;
+    .card_article {
+        width: 100%;
         justify-content: center;
     }
+}
+
+.cardImg {
+    width: 70%;
 }
 
 /* INDEX FIN*/
 /* DETALLE.HTML */
 
-.ingredientes_instrucciones {
+.ingredientes,
+.instrucciones {
     color: white;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
+.ulIngredientes, .ulPasos{
+    width: 60%;
+    align-self: center;
+}
+
+
 .detalle_img {
-    width: 30%;
+    width: 70%;
     border-radius: 10%;
 }
 
@@ -204,9 +212,12 @@ button {
 .ingredientes h3,
 .categorias h3,
 .instrucciones h3 {
+    justify-self: center;
+    color: white;
     align-self: center;
 }
-.detalle_category{
+
+.detalle_category {
     display: flex;
     border-radius: 10%;
     background-color: white;
@@ -219,19 +230,20 @@ button {
 
 /* LOGIN */
 
-.body_login{
-    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    width: 100%; 
+.body_login {
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
     display: flex;
-   flex-direction: column;
-   align-items:  center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.log{
+.log {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,29 +253,29 @@ button {
     justify-content: center;
 }
 
-#loginfFormulario{
+#loginfFormulario {
     display: flex;
     flex-direction: column;
 }
 
-.sesion_login{
-   
+.sesion_login {
+
     font-size: 40px;
     color: bisque;
     font-weight: bold;
     text-align: center;
     width: 100%;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-label{
+label {
     padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
     color: bisque;
 }
 
-.buttonLogin{
+.buttonLogin {
     font-size: 15px;
     font-weight: bold;
     color: black;
@@ -271,28 +283,30 @@ label{
     border-radius: 5px;
     width: 15%;
     padding-top: 12px;
-   justify-content: center;
+    justify-content: center;
     width: 100%;
     margin-top: 10px;
 }
+
 /* LOGIN FIN */
 
 /* REGISTRO */
 
-.body_registro{
-    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    width: 100%; 
+.body_registro {
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
     display: flex;
-   flex-direction: column;
-   align-items:  center;
-    
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.registro{
+.registro {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,7 +314,7 @@ label{
     gap: 15px;
     max-width: 100%;
     padding: 20px;
-    
+
 }
 
 #registroForm {
@@ -308,14 +322,15 @@ label{
     flex-direction: column;
     font-size: 20px;
 }
-label{
+
+label {
     padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
     color: bisque;
 }
 
-.rtitulo{
+.rtitulo {
     display: flex;
     color: bisque;
     justify-content: center;
