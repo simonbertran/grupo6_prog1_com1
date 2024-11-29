@@ -24,12 +24,18 @@ body {
     /* Full width of the viewport */
 }
 
+.footer {
+    background-color: white;
+}
+
 /* INDEX */
 button {
     font-family: "Libre Franklin", sans-serif;
 }
 
-h1{text-align: center;}
+h1 {
+    text-align: center;
+}
 
 .imgHeader {
     width: 100%;
@@ -97,21 +103,13 @@ h1{text-align: center;}
 
 }
 
-.botonAgregar {
-    justify-self: center;
-    font-size: larger;
-}
-
-.botonAgregar:hover {
-    justify-self: center;
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
-}
 
 
 .buttonConocer {
     display: flex;
     justify-content: center;
+    font-size: larger;
+    border-radius: 15%;
 }
 
 .buttonConocer:hover {
@@ -307,7 +305,7 @@ label {
 }
 
 @media(max-width:480px) {
-   
+
     .ingredientes_instrucciones {
         flex-direction: column;
 
